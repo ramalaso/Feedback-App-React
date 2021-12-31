@@ -19,7 +19,7 @@ function FeedbackForm() {
      if(feedbackEdit.edit) {
         setBtnDisabled(false)
         setText(feedbackEdit.item.text)
-        setRating(feedbackEdit.item.ratinf)
+        setRating(feedbackEdit.item.rating)
      }
    }, [feedbackEdit])
 
@@ -47,6 +47,7 @@ function FeedbackForm() {
 
          if(feedbackEdit.edit) {
             updateFeedback(feedbackEdit.item.id, newFeedback)
+            feedbackEdit.edit = false;
          } else {
             addFeedback(newFeedback)
          }

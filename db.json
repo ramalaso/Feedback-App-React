@@ -1,0 +1,29 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "rating": 10,
+      "text": "This is feedback item 1 comming from backend"
+    },
+    {
+      "id": 2,
+      "rating": 8,
+      "text": "This is feedback item 2 comming from backend"
+    },
+    {
+      "text": "This is feedback item 1 comming from backend",
+      "rating": 10,
+      "id": 3
+    },
+    {
+      "text": "dsadsADDSADaas423424231231312312",
+      "rating": 9,
+      "id": 4
+    },
+    {
+      "text": "fafasfasdfasdfdsa",
+      "rating": 6,
+      "id": 5
+    }
+  ]
+}
